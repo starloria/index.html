@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #f0f4f8, #d9e4ec);
+    color: #333;
+    text-align: center;
+}
+
+.header{
+    background: darkblue;
+    color: white;
+
+}
+.content{
+    background: white;
+    border: 2px;
+    border-radius: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: -10px;
+
+}
+
+.events{
+    background: white;
+    border: 2px;
+    border-radius: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: -10px;
+
+}
+
+.contributions{
+    background: white;
+    border: 2px;
+    border-radius: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: -10px;
+
+}
+
+.links {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.links a {
+    display: inline-block;
+    margin: 8px 12px;
+    padding: 10px 18px;
+    background: darkblue;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+.links a:hover {
+    background: #004080;   /* чуть светлее при наведении */
+    transform: translateY(-3px); /* эффект приподнятой кнопки */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
